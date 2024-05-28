@@ -10,7 +10,7 @@ function Calculator() {
   const handleButtonClick = (buttonValue) => {
     if (buttonValue === '=') {
       try {
-        setResult(eval(input)); // Используйте eval с осторожностью, лучше использовать библиотеку для вычислений
+        setResult(eval(input));
       } catch (error) {
         setResult('Error');
       }
