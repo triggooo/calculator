@@ -4,8 +4,11 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #976b60;
+  background: rgb(238,174,202);
+  background: -moz-linear-gradient(8deg, rgb(238, 174, 202) 39%, rgb(148, 188, 233) 100%);
+  background: -webkit-linear-gradient(8deg, rgba(238,174,202,0.898838759136467) 39%, rgb(148, 188, 233) 100%);
+  background: linear-gradient(8deg, rgba(238,174,202,0.898838759136467) 39%, rgb(148, 188, 233) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#94bbe9",GradientType=1);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -65,4 +68,14 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.bow{
+  z-index: 1000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-210%, -300%) rotate(-10deg); 
+  height: 100px;
+  width: 100px;
 }

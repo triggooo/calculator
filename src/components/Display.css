@@ -9,42 +9,43 @@
   height: 100px;
 }
 .input {
-  font-size: 22px;
-  color: #e0e0e0;
+  font-size: 24px;
+  color: #ffffff;
   overflow-x: auto;
   white-space: nowrap; 
+  padding-bottom: 35px;
 }
 .result {
-  font-size: 26px;
-  color: #fff;
+  font-size: 30px;
+  color: #ffb4b4;
   overflow-x: auto;
   white-space: nowrap; 
 }
 .input::-webkit-scrollbar {
-  height: 12px;
+  height: 0px;
 }
 .input::-webkit-scrollbar-track {
   background: #fff; 
   border-radius: 10px; 
 }
 .input::-webkit-scrollbar-thumb {
-  background: #bfbfbf; 
+  background: #ff8a8a; 
   border-radius: 10px; 
 }
 .input::-webkit-scrollbar-thumb:hover {
-  background: #858585; 
+  background: #d35656; 
 }
 .result::-webkit-scrollbar {
-  height: 12px;
+  height: 0px;
 }
 .result::-webkit-scrollbar-track {
   background: #fff; 
   border-radius: 10px; 
 }
 .result::-webkit-scrollbar-thumb {
-  background: #bfbfbf; 
+  background: #ff8a8a; 
   border-radius: 10px; 
 }
 .result::-webkit-scrollbar-thumb:hover {
-  background: #858585; 
+  background: #d35656; 
 }
